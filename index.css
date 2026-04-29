@@ -1,0 +1,244 @@
+/* main navigasion section*/
+
+.logos-section{
+    display: flex;
+    justify-content: space-between; 
+    padding: 150px;   
+    color: #4E47FF;
+}
+
+/*Main*/
+
+
+
+/*btn-color*/
+
+.btn-color{
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    padding: 12px 36px;
+    width: 132px;
+    height: 48px;
+    
+}
+
+/*heading-tittle*/
+.background-img{
+    background-image: url(/Assets/Hero-bg.png);
+}
+.heading-tittle{
+    text-align: center;
+    
+    
+    
+    
+
+}
+.heading-text{
+    width: bold;
+    color: #252432;
+    font-size: 65px;
+}
+.header-button{
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    padding: 12px 36px;
+    width: 174px;
+    height: 48px;
+    gap: 16px;
+
+}
+
+/*Action section*/
+
+section div h3{
+    width: bold;
+    font-size: 42px;
+}
+section div p{
+    color: #252432;
+    font-size: 24px;
+}
+.action-section{
+    display: flex;
+    justify-content: space-between;
+    padding: 141px;
+}
+.btn-action{
+   
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    padding: 12px 36px;
+    width: 229px;
+    height: 48px;
+    gap: 10px;
+
+}
+
+/*productive-section*/
+
+.productive-section{
+    
+     background-color: #4E47FF1A; 
+     border-radius: 24px;
+     max-width: ;
+     margin: 0 300px;
+     padding: 80px 50px;
+     text-align: center;
+     
+     margin: 201px 203px;
+  
+  
+ }
+ .productive-div{
+    display: flex;
+    justify-content: space-between;
+ }
+ .ff{
+    width: bold;
+    font-size: 38px;
+ }
+ .gg{
+    width: bold;
+    font-size: 80px;
+    color: #4E47FF;
+ }
+ .hh{
+    width: ;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+
+ }
+  
+ 
+/*user intarface*/
+
+.user-1{
+    border-radius: 14px;
+    gap: 20px;
+    padding: 24px 24px;
+    text-align: ;
+    margin: 10px;
+    display: ;
+    background-color: #f0f0f4;
+}
+
+.all-user{
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+/*
+.image-review-name{
+    display: flex;
+    gap: 20px;
+    
+    
+}
+
+.image-sides-para{
+     margin: 0 0 10px 0; 
+    
+}
+*/
+
+
+.focus-section{
+    text-align: center;
+    padding: 100px;
+    background-color: #f0f0f4;
+    max-width: auto;
+    border-radius: 24px;
+    max-width: ;
+    margin: 201px 203px;
+    display: table-row;
+    
+}
+
+/*Lets get in touch*/
+
+.get-in-touch{
+    display: flex;
+    justify-content: space-between;
+    background-color: #f0f0f4;
+}
+
+.text-container{
+    gap: auto;
+    padding: 0px px;
+    background-color: #e4e2e2;
+}
+
+.footer-flex{
+   
+    gap: 30px;
+    background-color: #4E47FF1A; 
+     border-radius: 24px;
+     max-width: ;
+     margin: 0 300px;
+     padding: 80px 50px;
+     text-align: center;
+     
+     margin: 455px 103px;
+}
+
+.last-footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+
+/* Container (body বাদ দিয়ে) */
+.effect-button {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Button style */
+.btn2 {
+  position: relative;
+  padding: 15px 35px;
+  font-size: 18px;
+  border: none;
+  background: orange;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+/* Hover effect */
+.btn2:hover {
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+
+/* Ripple circle */
+.btn2::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  background: rgba(255,255,255,0.6);
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Click করলে animation */
+.btn2:active::after {
+  width: 250px;
+  height: 250px;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+
+
